@@ -1,0 +1,109 @@
+/* font-family: 'Heebo', sans-serif;
+font-family: 'Lobster', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    font-family: 'Heebo', sans-serif;
+    margin-top: 0;
+}
+
+
+.landing{
+    min-height: 100vh;
+    width: 100vw;
+    background: url(./toni-hukkanen-Eu7Oq-Yc4us-unsplash.jpg);
+    background-size: cover;
+    padding: 0rem 5rem;
+    margin-top: 0;
+    position: fixed;
+}
+nav{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    margin-top: 25px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.nav-links li{
+    padding-left: 4rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+#logo{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    color: white;
+}
+
+.big-text{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-family: 'Lobster', cursive;
+    transform: translate(-50%,-30%) ;
+    font-size: 5rem;
+    color: white;
+}
+
+
+.intro{
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.intro-text{
+    color: rgb(227,242,255);
+    font-family: 'Heebo', sans-serif;
+    font-size: 2rem;
+
+}
+
+
+.slider{
+    background: rgb(127, 127, 127);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+}
+
+
+.hide{
+    background:black;
+    overflow: hidden;
+}
+
+.hide span{
+    transform: translateY(100%);
+    display: inline-block;
+}
